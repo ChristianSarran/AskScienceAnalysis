@@ -18,7 +18,7 @@ Cancer AMA
 Climate Science AMA
 
 The majority of posts however can be see in these top flairs
-<img align="right" width="100" height="100" src="(/download (1).png">
+<img align="right" width="100" height="100" src="(download (1).png">
 
 
 
