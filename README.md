@@ -18,6 +18,6 @@ Cancer AMA
 Climate Science AMA
 
 The majority of posts however can be see in these top flairs
-![download (1)](https://user-images.githubusercontent.com/43121654/144888925-3ed93c8c-70ca-4c15-87ae-3b609fad5453.png){align="right"}
+![download (1)](https://user-images.githubusercontent.com/43121654/144888925-3ed93c8c-70ca-4c15-87ae-3b609fad5453.png){:align="right"}
 
 
