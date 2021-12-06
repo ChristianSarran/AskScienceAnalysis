@@ -9,4 +9,5 @@ Bigger reddit communities? Bigger population?
 
 First lets try to understand the subreddit as whole.
 
-![Alt text](/download (1).png?raw=true "Optional Title")
+![download (1)](https://user-images.githubusercontent.com/43121654/144888925-3ed93c8c-70ca-4c15-87ae-3b609fad5453.png)
+
