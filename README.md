@@ -96,6 +96,20 @@ Looking at the correlation between types of posts (based on flair) by user we se
 
 <img width="350" height="300" align="right" src="https://github.com/ChristianSarran/d25/blob/f2da4d6651ea8a7d3269aa60d264a301f7e26517/scoreOfPosts.png" alt=""/>
   
+   <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+  
 
   <p align="center">
 From the graph on the left we see that although some people do post more than just a few times, more than half the submissions on the subreddit come from one or two time posters
