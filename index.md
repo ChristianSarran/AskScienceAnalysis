@@ -136,3 +136,19 @@ Next the data is split into training/validation and test. TFIDF is then fitted a
 We see the accuracy of MultinomialNB is 0.65 and LinearSVC 0.668
 
 <img width="600" height="600" align="left" src="https://github.com/ChristianSarran/d25/blob/e1e02170d4f4799d86712e673b0667846d4047f7/confusion.png" alt=""/>
+
+<br />
+
+Looking at the confusion matrix of the LinearSVC model we can analyse topics which the model could easily predict, and which it had trouble distinguishing.
+
+We see high simllarity by the predictor between Biology and Human Body in both directions which makes sense since they have simillar domains.
+
+Human body is more than twice as likely to be mistaken for medicine, compared to biology to be mistake for medicine. We also see engineering posts are often predicted to be physics posts, whereas physics posts are not so oftern mislabelled as engineering We also see most other flairs are oftern misslabelled as Physics flairs These results suggest that prehaps Biology and Human Body flairs could be combined.
+
+The problem with this is that these two flairs are already among the biggest flairs, so possibly the very close simillarity is endured to maintain slightly bettwen distinction between the posts
+
+<br />
+<br />
+<img align="left" width="300" height="300" src="tester.png" alt=""/>
+
+
