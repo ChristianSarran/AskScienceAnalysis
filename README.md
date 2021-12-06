@@ -10,15 +10,26 @@ Bigger reddit communities? Bigger population?
 First lets try to understand the subreddit as whole.
 
 There are 62 unique flairs total, of which 42 have been used less than 5 times. Many are AMA based some of which a mix of multiple science fields. A few are listed below to gain  a sense of what these look like:
-Planetary Sci./engineering                        
-Climate History AMA                               
-NOAA | The Rising Risk of Whale Entanglement      
-Food Safety AMA                                   
-Cancer AMA                                        
-Climate Science AMA
 
+ <img align="right" src="https://github.com/ChristianSarran/d25/blob/9cffefdb4a6e8db8862096dcfa97f2336bdc542d/pie.png" alt="Sublime's custom image"/>
+<pre>
+Economics                                  2007 posts
+Political Science                          1122 posts
+Archaeology                                 978 posts
+Biology/Agriculture                           5 posts
+Neuroscience AMA                              3 posts
+Agriculture                                   2 posts
+Panel Applications                            2 posts 
+ACS AMA                                       2 posts
+Malaria AMA                                   2 posts
+Weather ❄ 😎                                 1 posts 
+Neutrino Physics AMA                          1 posts
+Biology/Animal behavior                       1 posts
+Genetic Medicine                              1 posts
+Environmental engineering                     1 posts
+Dog Cognition AMA                             1 posts 
+Science History                               1 posts 
+Ocean Research AMA                            1 posts
+...
+</pre>
 The majority of posts however can be see in these top flairs
-<img align="right" width="100" height="100" src="(https://github.com/ChristianSarran/d25/blob/main/pie.png">
-
-
-
