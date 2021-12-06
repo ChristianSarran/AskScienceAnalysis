@@ -11,44 +11,58 @@ Bigger reddit communities? Bigger population?
 
 First lets try to understand the subreddit as whole.
 
-There are 62 unique flairs total, of which 42 have been used less than 5 times and 8 of which are used less than 10,000 times. Many are AMA based and some are a mix of multiple science fields. A few are listed below to gain  a sense of what these look like:
+<br />
 
+### What Flairs are used?
 
+There are 62 unique flairs total, of which 42 have been used less than 5 times and 8 of which are used less than 10,000 times. Many are AMA based and some are a mix of multiple science fields. A few of the middle to less used flair are listed below to the left to gain a sense of what their scope and prevalence looks like.
 
- <img align="right" src="https://github.com/ChristianSarran/d25/blob/9cffefdb4a6e8db8862096dcfa97f2336bdc542d/pie.png" alt=""/>
-<pre>
-Economics                                  2007 posts
-Political Science                          1122 posts
-Archaeology                                 978 posts
-Biology/Agriculture                           5 posts
-Neuroscience AMA                              3 posts
-Agriculture                                   2 posts
-Panel Applications                            2 posts 
-ACS AMA                                       2 posts
-Malaria AMA                                   2 posts
-Weather ❄ 😎                                 1 posts 
-Neutrino Physics AMA                          1 posts
-Biology/Animal behavior                       1 posts
-Genetic Medicine                              1 posts
-Environmental engineering                     1 posts
-Dog Cognition AMA                             1 posts 
-Science History                               1 posts 
-Ocean Research AMA                            1 posts
-...
-</pre>
 The majority of posts however can be see in these top flairs in the pie chart on the right. We will ignore the less used flairs for the purpose of this research as many are simply not used enough to be relevant 
 
+<img align="right" src="https://github.com/ChristianSarran/d25/blob/9cffefdb4a6e8db8862096dcfa97f2336bdc542d/pie.png" alt=""/>
+
+<pre>
+...
+Earth Sciences                  31542 posts
+Medicine                        26698 posts 
+Engineering                     21112 posts
+Psychology                      18921 posts
+Neuroscience                    18517 posts
+COVID-19                        16172 posts
+Planetary Sci.                  15125 posts
+Computing                       10297 posts
+Mathematics                     9360 posts
+Social Science                  5355 posts
+Anthropology                    3374 posts
+Paleontology                    2712 posts
+Linguistics                     2115 posts
+Economics                       2007 posts
+Political Science               1122 posts
+Archaeology                      978 posts
+Economics                       2007 posts
+Political Science               1122 posts
+Archaeology                      978 posts
+Biology/Agriculture                5 posts
+Neuroscience AMA                   3 posts
+Agriculture                        2 posts
+Panel Applications                 2 posts 
+ACS AMA                            2 posts
+Malaria AMA                        2 posts
+Weather ❄ 😎                      1 posts 
+Neutrino Physics AMA               1 posts
+...
+</pre>
+
 <br />
-<br />
-<br />
-<br />
-<br />
+
+### How does the subreddit change over time?
+
 Looking at the number of post over time, the subreddit lost a lot popularity in 2018 and 2019, but than gain a resurrgency in 2020 and is maintaining the popularity in 2021.
 
 <img align="left" src="https://github.com/ChristianSarran/d25/blob/ef0d12eb77a5a72de8dbf23db26a8ae0cd1af063/year.png" alt=""/>
 
 
-<img align="left" src="https://github.com/ChristianSarran/d25/blob/df08865ac24c322d028746283c7db215d5a467a3/time.png" alt=""/>
+<img align="left" src="https://github.com/ChristianSarran/d25/blob/bb1aa45b76b8215b4126d2aabbe93a64cd0bd9c0/time.png" alt=""/>
 
 The huge spike in popularity conincides with lockdowns starting to occur in North America in early to mid 2020. This would suggest like a lot of internet based media r/AskScience saw a huge boost in activity from covd-19 lockdown. We even see a new flair COVID-19 popup in 2019 and quickly rise to 3% all time popularity in less than 2 years
 
@@ -61,9 +75,6 @@ There is a noteworthy spike from medicine in 2020 which breaks this pattern whic
 demonstrates that although the subreddit is relatively set in its ways, massive event like the corona virus can be reflect in large scale change in the behaviour of the subreddit.
 
 
-
-<br />
 <br />
 
-
-test
+### Are certain flairs more valuable?
