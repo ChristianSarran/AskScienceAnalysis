@@ -32,4 +32,4 @@ Science History                               1 posts
 Ocean Research AMA                            1 posts
 ...
 </pre>
-The majority of posts however can be see in these top flairs
+The majority of posts however can be see in these top flairs in the pie chart on the right
