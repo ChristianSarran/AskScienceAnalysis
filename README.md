@@ -94,7 +94,7 @@ Looking at the correlation between types of posts (based on flair) by user we se
 
 <img width="400" height="300" align="left" src="https://github.com/ChristianSarran/d25/blob/88fbb933bf542e6e015fc47a63b907f7923f2b62/sumOfPosts.png" alt=""/>
 
-<img width="400" height="300" align="right" src="https://github.com/ChristianSarran/d25/blob/f2da4d6651ea8a7d3269aa60d264a301f7e26517/scoreOfPosts.png" alt=""/>
+<img width="350" height="300" align="right" src="https://github.com/ChristianSarran/d25/blob/f2da4d6651ea8a7d3269aa60d264a301f7e26517/scoreOfPosts.png" alt=""/>
   
 
   <p align="center">
