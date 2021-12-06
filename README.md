@@ -1,4 +1,4 @@
-For marker of this file, please read from the readme preview which shows the files in the repo, and not by clicking into the file, due to formatting differences (https://github.com/ChristianSarran/d25) 
+For marker of this file, please read from the readme preview which shows the files in the repo, and not by clicking into the file, due to formatting differences (https://github.com/ChristianSarran/d25). HTML formatting became to cumbersome
 
 # CSCD25: Course Project
 
@@ -55,7 +55,7 @@ Neutrino Physics AMA               1 posts
 
 <br />
 
-### How does the subreddit change over time?
+### How has the subreddit change over time?
 
 Looking at the number of post over time, the subreddit lost a lot popularity in 2018 and 2019, but than gain a resurrgency in 2020 and is maintaining the popularity in 2021.
 
@@ -76,7 +76,44 @@ all stat roughly together with neiter group really jumping between.
 There is a noteworthy spike from medicine in 2020 which breaks this pattern which is likely due to the sudden public interest in covid's health measures and the vaccine. This
 demonstrates that although the subreddit is relatively set in its ways, massive event like the corona virus can be reflect in large scale change in the behaviour of the subreddit.
 
-
 <br />
 
-### Are certain flairs more valuable?
+### What do user patterns look like?
+
+<img align="left" src="https://github.com/ChristianSarran/d25/blob/6c86c133cdd98d8d2a0f07ceb944d65eba0544ec/correlation_clustering.png" alt=""/>
+
+<br />
+<p align="right">
+Looking at the correlation between types of posts (based on flair) by user we see specific flair grouping which tend to be posted by the same person like biology, earth science and medicine. Physics also seems to be uniquely seperate from the other flairs not having high corrleation with any other flair. Biology has the highest correlation with every other flair, which makes sense from the most widely used flair and we also see a tight correlation bettween enginnerring, earth science and biology
+<p/>
+
+<br />
+<br />
+<br />
+<br />
+
+<div>
+  <img width="490" height="300" align="left" src="https://github.com/ChristianSarran/d25/blob/88fbb933bf542e6e015fc47a63b907f7923f2b62/sumOfPosts.png" alt=""/>
+
+  <img width="420" height="300" align="right" src="https://github.com/ChristianSarran/d25/blob/f2da4d6651ea8a7d3269aa60d264a301f7e26517/scoreOfPosts.png" alt=""/>
+<div/>
+  
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+  
+<p align="center">
+From the graph on the left we see that although some people do post more than just a few times, more than half the submissions on the subreddit come from one or two time posters
+and less than 5% come from people who post more than 5 times. Alternatively on the right graph we see an overwhelmingly large portion of posts will have less than 50 score, and very few will achieve over 500
+<p/>
+
