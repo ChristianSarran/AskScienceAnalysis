@@ -117,3 +117,21 @@ and less than 5% come from people who post more than 5 times. Alternatively on t
 <p/>
 
 
+### How well are topics organized now?
+
+In order to answer this question, we will try to use topic modelling to create topics based on the questions asked, and see if the currents flairs meet these topics and if the
+flairs can easily be predicted based on the question. 
+
+First we will take the raw question data and remove any stopwords/uninformative wards, punctuation/non alpha characters and lowercase everything. Stemming was applied but found not siginifcant predicitive improvments. This will be our corpus for analysis
+
+![raw](https://user-images.githubusercontent.com/43121654/144928012-4963f6bd-d705-4e80-ac7b-6062e5d1dd9f.PNG)
+
+<img width="100" height="100" align="center" src="https://github.com/ChristianSarran/d25/blob/2038b0a8f008755e62cabe06a77e37042be1af66/output-onlinepngtools.png" alt=""/>
+
+![cleaned2](https://user-images.githubusercontent.com/43121654/144926444-459361a7-961c-4a87-a50f-48e4ddc7b773.PNG)
+
+Next the data is split into training/validation and test. TFIDF is then fitted and applied and then passed through both Multinomial Naivyes Bayes classifier and a Linear Support Vector Classifier, which is then fined tuned with the validation set and applied to the test set
+
+We see the accuracy of MultinomialNB is 0.65 and LinearSVC 0.668
+
+<img width="600" height="600" align="left" src="https://github.com/ChristianSarran/d25/blob/e1e02170d4f4799d86712e673b0667846d4047f7/confusion.png" alt=""/>
