@@ -66,10 +66,12 @@ Looking at the number of post over time, the subreddit lost a lot popularity in 
 
 The huge spike in popularity conincides with lockdowns starting to occur in North America in early to mid 2020. This would suggest like a lot of internet based media r/AskScience saw a huge boost in activity from covd-19 lockdown. We even see a new flair COVID-19 popup in 2019 and quickly rise to 3% all time popularity in less than 2 years
 
+
 Looking at the top most used flairs we actually see a suprising consistent pattern between distribution of flair types over time. Flairs tend to fall and grow at the same time
 but also maintain close to the same relative popularity. We see almost two groups in the top flairs, the 'dominant flairs' Physics, Biology and Human Body which maintain their
 top 3 status and are close together, and then the second group of a wide variety of topics like Chemisty, Engineering, and Astronomy which maintaing a 'middle tier' group which
 all stat roughly together with neiter group really jumping between.
+
 
 There is a noteworthy spike from medicine in 2020 which breaks this pattern which is likely due to the sudden public interest in covid's health measures and the vaccine. This
 demonstrates that although the subreddit is relatively set in its ways, massive event like the corona virus can be reflect in large scale change in the behaviour of the subreddit.
