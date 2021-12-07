@@ -131,55 +131,61 @@ First we will take the raw question data and remove any stopwords/uninformative 
 
 <br />
 <br />
-Next lets examine the top 8 flairs word clouds to better understand the words and scope of each flair
-
+<p>Next lets examine the top 8 flairs word clouds to better understand the words and scope of each flair
+ <p/>
 <img align="left" src="tester2.png" alt=""/>
 
 <br />
-
+<p>
 We see that actually each flair has pretty distinct words that conincide with that branch of science, hoewever some words overlap. For example 'earth' is used in astronomy and earth sciences and physics, 'human' is common word between human body, medicine, and biology. 'Energy','earth','work', 'light' are all terms used in both physics and engineering. This suggests these topics are indeed very simillair in subject matter, however they do have some distinction as well 
-
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+ <p/>
 
 <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<br />
 
 
-
+<p>
 Next, split the data into training/validation and test. TFIDF is then fitted and applied and then passed through both Multinomial Naivyes Bayes classifier and a Linear Support Vector Classifier, which is then fined tuned with the validation set and applied to the test set
-
+ <p/>
+<p>
 We see the accuracy of MultinomialNB is 0.65 and LinearSVC 0.668
-
+ <p/>
 <img width="600" height="600" align="left" src="confusion2.png" alt=""/>
 
 <br />
-
+<p>
 Looking at the confusion matrix of the LinearSVC model we can analyse topics which the model could easily predict, and which it had trouble distinguishing.
-
+<p>
 We see high simllarity by the predictor between Biology and Human Body in both directions which makes sense since they have simillar domains.
-
+ <p/>
+<p>
 Human body is more than twice as likely to be mistaken for medicine, compared to biology to be mistake for medicine. We also see engineering posts are often predicted to be physics posts, whereas physics posts are not so oftern mislabelled as engineering We also see most other flairs are oftern misslabelled as Physics flairs These results suggest that prehaps Biology and Human Body flairs could be combined.
-
+ <p/>
+<p>
 The problem with this is that these two flairs are already among the biggest flairs, so possibly the very close simillarity is endured to maintain slightly bettwen distinction between the posts
-
+ <p/>
+ <p>
 The commonalities between the missclassification is reflected in the simllairty of the confusion matrix of our classifier and the previous word clouds.
+ <p/>
 <br />
 <br />
 
 <h3>Can we do better?</h3>
-
+<p>
 In order to test whether or not their are better flairs we can try to use topic modelling on the posts of the top 8 flairs
-
+ <p/>
+<p>
 Using a a matrix or word counts from the training set LatentDirichletAllocation(LDA) is used to determine weights for each new topic. Taking each of the top words
 manually for 8 topics, labels where assigned:
-
+ <p/>
 <br />
 <br />
 <br />
@@ -187,9 +193,9 @@ manually for 8 topics, labels where assigned:
 
 
 <img align="left" src="NEW.png" alt=""/>
-
+<p>
 Looking at the new topics we see alot of the existing topics clearly from the word clouds. Chemistry, Physics, AstroPhysics/Astronomy and Earth Sciences. We also have some wordclouds that are a bit ambiguous like Medicine, Human Body and Biology. None of these seem like perfect fits but are the best approximations of the words. Chemistry and Zoology are new topics which are now seen. The Chemistry topic has very clear chemistry related terms like pressure, air, liquid, energy, heat. The Zoology also has words specific to studying animals(including humans): Plants, hair, evolutionary, species, dogs, animals.
-
+ <p/>
 
 <br />
 <br />
@@ -212,5 +218,6 @@ Looking at the new topics we see alot of the existing topics clearly from the wo
 <h3>Next steps?</h3>
 
 
-
+<p>
 Given more time, I think the next natural step would be to include these new topics and relabel posts from the subreddit and try to rerun a topic classication predicition model on the new data and see if it performs better. Nautrally using only models to verify how well these topics are labelled has very little external validity so having manual labellers and validators would be ideal once our model is able to easily determine the distinction in topics
+ <p/>
