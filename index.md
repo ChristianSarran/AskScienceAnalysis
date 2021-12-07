@@ -133,7 +133,7 @@ First we will take the raw question data and remove any stopwords/uninformative 
 <br />
 <p>Next lets examine the top 8 flairs word clouds to better understand the words and scope of each flair
  <p/>
-<img align="left" src="tester2.png" alt=""/>
+<img width="800" align="left" src="tester2.png" alt=""/>
 
 <br />
 <p>
