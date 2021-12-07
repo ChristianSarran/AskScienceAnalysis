@@ -140,9 +140,6 @@ First we will take the raw question data and remove any stopwords/uninformative 
 We see that actually each flair has pretty distinct words that conincide with that branch of science, hoewever some words overlap. For example 'earth' is used in astronomy and earth sciences and physics, 'human' is common word between human body, medicine, and biology. 'Energy','earth','work', 'light' are all terms used in both physics and engineering. This suggests these topics are indeed very simillair in subject matter, however they do have some distinction as well 
  <p/>
 
-<br />
-<br />
-
 
 <p>
 Next, split the data into training/validation and test. TFIDF is then fitted and applied and then passed through both Multinomial Naivyes Bayes classifier and a Linear Support Vector Classifier, which is then fined tuned with the validation set and applied to the test set
@@ -168,7 +165,7 @@ The problem with this is that these two flairs are already among the biggest fla
 The commonalities between the missclassification is reflected in the simllairty of the confusion matrix of our classifier and the previous word clouds.
  <p/>
 <br />
-<br />
+
 
 <h3>Can we do better?</h3>
 <p>
@@ -192,9 +189,6 @@ Looking at the new topics we see alot of the existing topics clearly from the wo
 <br />
 
 
-<br />
-<br />
-<br />
 <br />
 
 
