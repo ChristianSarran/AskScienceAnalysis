@@ -136,19 +136,11 @@ First we will take the raw question data and remove any stopwords/uninformative 
 <img  align="center" src="tester2.png" alt=""/>
 
 <br />
-<p>
+<p align="center">
 We see that actually each flair has pretty distinct words that conincide with that branch of science, hoewever some words overlap. For example 'earth' is used in astronomy and earth sciences and physics, 'human' is common word between human body, medicine, and biology. 'Energy','earth','work', 'light' are all terms used in both physics and engineering. This suggests these topics are indeed very simillair in subject matter, however they do have some distinction as well 
  <p/>
 
 <br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
 <br />
 
 
@@ -183,37 +175,28 @@ The commonalities between the missclassification is reflected in the simllairty 
 In order to test whether or not their are better flairs we can try to use topic modelling on the posts of the top 8 flairs
  <p/>
 <p>
-Using a a matrix or word counts from the training set LatentDirichletAllocation(LDA) is used to determine weights for each new topic. Taking each of the top words
+Using a a matrix or word counts from the training set LatentDirichletAllocation (LDA) is used to determine weights for each new topic. Taking each of the top words
 manually for 8 topics, labels where assigned:
  <p/>
-<br />
-<br />
-<br />
 <br />
 
 
 <img align="left" src="NEW.png" alt=""/>
 <p>
-Looking at the new topics we see alot of the existing topics clearly from the word clouds. Chemistry, Physics, AstroPhysics/Astronomy and Earth Sciences. We also have some wordclouds that are a bit ambiguous like Medicine, Human Body and Biology. None of these seem like perfect fits but are the best approximations of the words. Chemistry and Zoology are new topics which are now seen. The Chemistry topic has very clear chemistry related terms like pressure, air, liquid, energy, heat. The Zoology also has words specific to studying animals(including humans): Plants, hair, evolutionary, species, dogs, animals.
+Looking at the new topics we see alot of the existing topics clearly from the word clouds. Chemistry, Physics, AstroPhysics/Astronomy and Earth Sciences. We also have some wordclouds that are a bit ambiguous like Medicine, Human Body and Biology. None of these seem like perfect fits but are the best approximations of the words.
  <p/>
+ <p>
+  Chemistry and Zoology are new topics which are now seen. The Chemistry topic has very clear chemistry related terms like pressure, air, liquid, energy, heat. The Zoology also has words specific to studying animals(including humans): Plants, hair, evolutionary, species, dogs, animals.
+<p/>
+<br />
+<br />
+
 
 <br />
 <br />
 <br />
 <br />
-<br />
-<br />
-<br />
-<br />
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 
 <h3>Next steps?</h3>
 
