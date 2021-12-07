@@ -104,7 +104,9 @@ Looking at the correlation between types of posts (based on flair) by user we se
 
   <p align="center">
 From the graph on the left we see that although some people do post more than just a few times, more than half the submissions on the subreddit come from one or two time posters
-and less than 5% come from people who post more than 5 times. Alternatively on the right graph we see an overwhelmingly large portion of posts will have less than 50 score, and very few will achieve over 500
+and less than 5% come from people who post more than 5 times. 
+  
+ Alternatively on the right graph we see an overwhelmingly large portion of posts will have less than 50 score, and very few will achieve over 500
 <p/>
 
 <br />
