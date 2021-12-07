@@ -105,18 +105,20 @@ Looking at the correlation between types of posts (based on flair) by user we se
   <p align="center">
 From the graph on the left we see that although some people do post more than just a few times, more than half the submissions on the subreddit come from one or two time posters
 and less than 5% come from people who post more than 5 times. 
-  
- Alternatively on the right graph we see an overwhelmingly large portion of posts will have less than 50 score, and very few will achieve over 500
 <p/>
-
+ <p align="center">
+  Alternatively on the right graph we see an overwhelmingly large portion of posts will have less than 50 score, and very few will achieve over 500
+<p/>
 <br />
 
 <h3>How well are topics organized now??</h3>
-
+<p>
 In order to answer this question, we will try to use topic modelling to create topics based on the questions asked, and see if the currents flairs meet these topics and if the
 flairs can easily be predicted based on the question. 
-
+<p/>
+<p>
 First we will take the raw question data and remove any stopwords/uninformative wards, punctuation/non alpha characters and lowercase everything. Stemming was applied but found not siginifcant predicitive improvments. This will be our corpus for analysis. For the purpose of anlysis we will only look at the top 8 flairs, for easy of anyalysis and computation, but also all lower flairs are only used less than 4% of the time 
+ <p/>
 <br />
 <hr>
 <br />
