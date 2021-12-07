@@ -1,3 +1,4 @@
+
 For marker of this file, please read from the readme preview which shows the files in the repo, and not by clicking into the file, due to formatting differences (https://github.com/ChristianSarran/d25). HTML formatting became to cumbersome
 
 # CSCD25: Course Project
@@ -134,17 +135,22 @@ Next the data is split into training/validation and test. TFIDF is then fitted a
 
 We see the accuracy of MultinomialNB is 0.65 and LinearSVC 0.668
 
-<img width="600" height="600" align="left" src="https://github.com/ChristianSarran/d25/blob/d43d87bb6e6f8e473f043bf10bafc67b4b305f6c/confusion2.png" alt=""/>
+<img width="600" height="600" align="left" src="https://github.com/ChristianSarran/d25/blob/e1e02170d4f4799d86712e673b0667846d4047f7/confusion.png" alt=""/>
 
- <br />
- <br />
+<br />
 
-Looking at the confusion matrix of the LinearSVC model we can analyse topics which the model could easily predict, and which it had trouble distinguishing 
+Looking at the confusion matrix of the LinearSVC model we can analyse topics which the model could easily predict, and which it had trouble distinguishing.
 
-We see high simllarity by the predictor between Biology and Human Body in both directions which makes sense since they have simillar domains. Human body is more than twice as likely to be mistaken for medicine, compared to biology to be mistake for medicine.
+We see high simllarity by the predictor between Biology and Human Body in both directions which makes sense since they have simillar domains.
 
-We also see engineering posts are often predicted to be physics posts, whereas physics posts are not so oftern mislabelled as engineering 
+Human body is more than twice as likely to be mistaken for medicine, compared to biology to be mistake for medicine. We also see engineering posts are often predicted to be physics posts, whereas physics posts are not so oftern mislabelled as engineering We also see most other flairs are oftern misslabelled as Physics flairs These results suggest that prehaps Biology and Human Body flairs could be combined.
 
-We also see most other flairs are oftern misslabelled as Physics flairs 
+The problem with this is that these two flairs are already among the biggest flairs, so possibly the very close simillarity is endured to maintain slightly bettwen distinction between the posts
 
-These results suggest that prehaps Biology and Human Body flairs could be combined. The problem with this is that these two flairs are already among the biggest flairs, so possibly the very close simillarity is endured to maintain slightly bettwen distinction between the posts
+<br />
+<br />
+<img align="left" width="1000" height="1000" src="tester2.png" alt=""/>
+
+<br />
+
+We see that actually each flair has pretty distinct words that conincide with that branch of science, hoewever some words overlap. For example 'earth' is used in astronomy and earth sciences and physics, 'human' is common word between human body, medicine, and biology. 'Energy','earth','work', 'light' are all terms used in both physics and engineering. The commonalities between subjects is reflected in the confusion matrix of our classifier. This suggests these topics are indeed very simillair in subject matter  
