@@ -122,11 +122,14 @@ First, we will take the raw question data and remove any stop words/uninformativ
 <br />
 <hr>
 <br />
-<img align="center" src="cleaned2.PNG" alt=""/>
+
+
+<img  align="center" src="raw.PNG" alt=""/>
 
 <img width="100" height="100" align="center" src="output-onlinepngtools.png" alt=""/>
 
-<img  align="center" src="raw.PNG" alt=""/>
+
+<img align="center" src="cleaned2.PNG" alt=""/>
 <hr>
 
 <br />
