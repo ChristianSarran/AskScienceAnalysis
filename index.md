@@ -147,7 +147,7 @@ Next, split the data into training/validation and test. TFIDF is then fitted and
 
 We see the accuracy of MultinomialNB is 0.65 and LinearSVC 0.668
 
-<img width="600" height="600" align="left" src="https://github.com/ChristianSarran/d25/blob/e1e02170d4f4799d86712e673b0667846d4047f7/confusion.png" alt=""/>
+<img width="600" height="600" align="left" src="confusion2.png" alt=""/>
 
 <br />
 
