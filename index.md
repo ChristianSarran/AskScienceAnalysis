@@ -20,7 +20,7 @@ There are 62 unique flairs total, of which 42 have been used less than 5 times a
 
 The majority of posts however can be see in these top flairs in the pie chart on the right. We will ignore the less used flairs for the purpose of this research as many are simply not used enough to be relevant 
 
-<img align="right" src="https://github.com/ChristianSarran/d25/blob/9cffefdb4a6e8db8862096dcfa97f2336bdc542d/pie.png" alt=""/>
+<img align="right" src="pie.png" alt=""/>
 
 <pre>
 ...
@@ -60,10 +60,10 @@ Neutrino Physics AMA               1 posts
 
 Looking at the number of post over time, the subreddit lost a lot popularity in 2018 and 2019, but than gain a resurrgency in 2020 and is maintaining the popularity in 2021.
 
-<img align="left" src="https://github.com/ChristianSarran/d25/blob/ef0d12eb77a5a72de8dbf23db26a8ae0cd1af063/year.png" alt=""/>
+<img align="left" src="year.png" alt=""/>
 
 
-<img align="left" src="https://github.com/ChristianSarran/d25/blob/bb1aa45b76b8215b4126d2aabbe93a64cd0bd9c0/time.png" alt=""/>
+<img align="left" src="time.png" alt=""/>
 
 The huge spike in popularity conincides with lockdowns starting to occur in North America in early to mid 2020. This would suggest like a lot of internet based media r/AskScience saw a huge boost in activity from covd-19 lockdown. We even see a new flair COVID-19 popup in 2019 and quickly rise to 3% all time popularity in less than 2 years
 
@@ -81,7 +81,7 @@ demonstrates that although the subreddit is relatively set in its ways, massive 
 
 ### What do user patterns look like?
 
-<img align="left" src="https://github.com/ChristianSarran/d25/blob/6c86c133cdd98d8d2a0f07ceb944d65eba0544ec/correlation_clustering.png" alt=""/>
+<img align="left" src="correlation_clustering.png" alt=""/>
 
 <br />
 <p align="right">
@@ -93,9 +93,9 @@ Looking at the correlation between types of posts (based on flair) by user we se
 <br />
 <br />
 
-<img width="400" height="300" align="left" src="https://github.com/ChristianSarran/d25/blob/88fbb933bf542e6e015fc47a63b907f7923f2b62/sumOfPosts.png" alt=""/>
+<img width="400" height="300" align="left" src="sumOfPosts.png" alt=""/>
 
-<img width="350" height="300" align="right" src="https://github.com/ChristianSarran/d25/blob/f2da4d6651ea8a7d3269aa60d264a301f7e26517/scoreOfPosts.png" alt=""/>
+<img width="350" height="300" align="right" src="scoreOfPosts.png" alt=""/>
   
    <br />
  <br />
@@ -127,7 +127,7 @@ First we will take the raw question data and remove any stopwords/uninformative 
 
 ![raw](https://user-images.githubusercontent.com/43121654/144928012-4963f6bd-d705-4e80-ac7b-6062e5d1dd9f.PNG)
 
-<img width="100" height="100" align="center" src="https://github.com/ChristianSarran/d25/blob/2038b0a8f008755e62cabe06a77e37042be1af66/output-onlinepngtools.png" alt=""/>
+<img width="100" height="100" align="center" src="output-onlinepngtools.png" alt=""/>
 
 ![cleaned2](https://user-images.githubusercontent.com/43121654/144926444-459361a7-961c-4a87-a50f-48e4ddc7b773.PNG)
 
