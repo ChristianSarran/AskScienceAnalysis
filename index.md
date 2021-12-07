@@ -116,14 +116,14 @@ In order to answer this question, we will try to use topic modelling to create t
 flairs can easily be predicted based on the question. 
 
 First we will take the raw question data and remove any stopwords/uninformative wards, punctuation/non alpha characters and lowercase everything. Stemming was applied but found not siginifcant predicitive improvments. This will be our corpus for analysis. For the purpose of anlysis we will only look at the top 8 flairs, for easy of anyalysis and computation, but also all lower flairs are only used less than 4% of the time 
-
+<br />
 <img align="center" src="cleaned2.PNG" alt=""/>
 
 <img width="100" height="100" align="center" src="output-onlinepngtools.png" alt=""/>
 
 <img  align="center" src="raw.PNG" alt=""/>
 
-
+<br />
 Next lets examine the top 8 flairs word clouds to better understand the words and scope of each flair
 
 <img align="left" src="tester2.png" alt=""/>
@@ -177,6 +177,11 @@ In order to test whether or not their are better flairs we can try to use topic 
 
 Using a a matrix or word counts from the training set LatentDirichletAllocation(LDA) is used to determine weights for each new topic. Taking each of the top words
 manually for 8 topics, labels where assigned:
+
+<br />
+<br />
+<br />
+<br />
 
 
 <img align="left" src="NEW.png" alt=""/>
