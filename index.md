@@ -72,10 +72,10 @@ demonstrates that although the subreddit is relatively set in its ways, massive 
 
 <br />
 
-<img align="left" src="correlation_clustering.png" alt=""/>
+<img align="left" src="user_corr.png" alt=""/>
 
 <p align="right">
-Looking at the correlation between types of posts (based on flair) by user we see specific flair grouping which tend to be posted by the same person as biology, earth science and medicine. Physics also seems to be uniquely separate from the other flairs not having high correlation with any other flair. Biology has the highest correlation with every other flair, which makes sense from the most widely used flair and we also see a tight correlation between engineering, earth science and biology 
+Looking at the correlation between types of posts (based on flair) by user we see specific flair grouping which tend to be posted by the same person are biology, earth science and engineering. Physics also seems to be uniquely separate from the other flairs not having high correlation with any other flair. Biology has the highest correlation with every other flair, which makes sense from the most widely used flair and we also see a tight correlation between engineering, earth science and biology 
 <p/>
 
 <br />
