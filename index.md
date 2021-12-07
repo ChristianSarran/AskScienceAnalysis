@@ -134,7 +134,7 @@ First we will take the raw question data and remove any stopwords/uninformative 
 
 Next lets examine the top 8 flairs word clouds to better understand the words and scope of each flair
 
-<img align="left" width="1000" height="1000" src="tester2.png" alt=""/>
+<img align="left" src="tester2.png" alt=""/>
 
 <br />
 
@@ -169,7 +169,14 @@ The commonalities between the missclassification is reflected in the simllairty 
 
 In order to test whether or not their are better flairs we can try to use topic modelling on the posts of the top 8 flairs
 
-Using a a matrix or word counts from the training set LatentDirichletAllocation(LDA) is used to determine new flairs:
+Using a a matrix or word counts from the training set LatentDirichletAllocation(LDA) is used to determine weights for each new topic. Taking each of the top words
+manually for 8 topics, labels where assigned:
 
 
+<img align="left" src="NEW.png" alt=""/>
 
+Looking at the new topics we see alot of the existing topics clearly from the word clouds. Chemistry, Physics, AstroPhysics/Astronomy and Earth Sciences. We also have some wordclouds that are a bit ambiguous like Medicine, Human Body and Biology. None of these seem like perfect fits but are the best approximations of the words. Chemistry and Zoology are new topics which are now seen. The Chemistry topic has very clear chemistry related terms like pressure, air, liquid, energy, heat. The Zoology also has words specific to studying animals(including humans): Plants, hair, evolutionary, species, dogs, animals.
+
+### Next steps?
+
+Given more time, I think the next natural step would be to include these new topics and relabel posts from the subreddit and try to rerun a topic classication predicition model on the new data and see if it performs better. Nautrally using only models to verify how well these topics are labelled has very little external validity so having manual labellers and validators would be ideal once our model is able to easily determine the distinction in topics
