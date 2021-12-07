@@ -5,7 +5,7 @@ Reddit had an estimated 303.4 million (https://www.redditinc.com/blog/reddits-20
 
 First lets try to understand the subreddit as whole.
 
-### What Flairs are used?
+<h3>What Flairs are used now?</h3>
 
 There are 62 unique flairs total, of which 42 have been used less than 5 times and 8 of which are used less than 10,000 times. Many are AMA based and some are a mix of multiple science fields. A few of the middle to less used flair are listed below to the left to gain a sense of what their scope and prevalence looks like.
 
@@ -47,8 +47,7 @@ Neutrino Physics AMA       1 posts
 
 <br />
 
-### How has the subreddit change over time?
-
+<h3>How has the subreddit change over time?</h3>
 Looking at the number of post over time, the subreddit lost a lot popularity in 2018 and 2019, but than gain a resurrgency in 2020 and is maintaining the popularity in 2021.
 
 <img align="left" src="year.png" alt=""/>
@@ -69,8 +68,7 @@ There is a noteworthy spike from medicine in 2020 which breaks this pattern whic
 demonstrates that although the subreddit is relatively set in its ways, massive event like the corona virus can be reflect in large scale change in the behaviour of the subreddit.
 
 <br />
-
-### What do user patterns look like?
+<h3> What do user patterns look like?</h3>
 
 <br />
 
@@ -112,7 +110,7 @@ and less than 5% come from people who post more than 5 times. Alternatively on t
 
 <br />
 
-### How well are topics organized now?
+<h3>How well are topics organized now??</h3>
 
 In order to answer this question, we will try to use topic modelling to create topics based on the questions asked, and see if the currents flairs meet these topics and if the
 flairs can easily be predicted based on the question. 
@@ -173,8 +171,7 @@ The commonalities between the missclassification is reflected in the simllairty 
 <br />
 <br />
 
-
-### Can we do better?
+<h3>Can we do better?</h3>
 
 In order to test whether or not their are better flairs we can try to use topic modelling on the posts of the top 8 flairs
 
@@ -205,6 +202,8 @@ Looking at the new topics we see alot of the existing topics clearly from the wo
 <br />
 <br />
 
-### Next steps?
+<h3>Next steps?</h3>
+
+
 
 Given more time, I think the next natural step would be to include these new topics and relabel posts from the subreddit and try to rerun a topic classication predicition model on the new data and see if it performs better. Nautrally using only models to verify how well these topics are labelled has very little external validity so having manual labellers and validators would be ideal once our model is able to easily determine the distinction in topics
