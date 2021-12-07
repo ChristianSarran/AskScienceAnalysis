@@ -1,18 +1,9 @@
-
-For marker of this file, please read from the readme preview which shows the files in the repo, and not by clicking into the file, due to formatting differences (https://github.com/ChristianSarran/d25). HTML formatting became to cumbersome
-
 # CSCD25: Course Project
 
 
-Reddit had an estimated 303.4 million (https://www.redditinc.com/blog/reddits-2020-year-in-review/) new posts in 2020. It is a social media platform with growing popularity and with that comes better need for structure and organization of the platform. Some Subreddits including r/AskScience use a manual flair method where a mod will assign a topic to a post inorder to make organizing, filter and search of the subreddits easier. The goal of the project will be to determine if the current flair system implemented in the subreddit r/AskScience is succeeding, can it be improved and if auto flair detection and assignment could be possible. Beyond this we will try to better understand reddit and r/AskScience as a community to ensure best the outcomes. We will look at post data from 2016-2020
-
-Is there a domaince of specific types of science as a result of the platform?(i.e. higher voted topics will trend to people asking about those topics
-Bigger reddit communities? Bigger population?
-
+Reddit had an estimated 303.4 million (https://www.redditinc.com/blog/reddits-2020-year-in-review/) new posts in 2020. It is a social media platform with growing popularity and with that comes better need for structure and organization of the platform. Some Subreddits including r/AskScience use a manual flair method where a mod will assign a topic to a post inorder to make organizing, filter and search of the subreddits easier. The goal of the project will be to determine if the current flair system implemented in the subreddit r/AskScience is succeeding, can it be improved and if auto flair detection and assignment could be possible. Beyond this we will try to better understand reddit and r/AskScience as a community. The data that will be examined is post data from r/AskScience from Jan. 1st 2016 and May 31st 2021
 
 First lets try to understand the subreddit as whole.
-
-<br />
 
 ### What Flairs are used?
 
@@ -24,10 +15,10 @@ The majority of posts however can be see in these top flairs in the pie chart on
 
 <pre>
 ...
-Earth Sciences                  31542 posts
-Medicine                        26698 posts 
-Engineering                     21112 posts
-Psychology                      18921 posts
+Earth Sciences             31542 posts
+Medicine                   26698 posts 
+Engineering                21112 posts
+Psychology                 18921 posts
 Neuroscience               18517 posts
 COVID-19                   16172 posts
 Planetary Sci.             15125 posts
@@ -144,8 +135,23 @@ Next lets examine the top 8 flairs word clouds to better understand the words an
 We see that actually each flair has pretty distinct words that conincide with that branch of science, hoewever some words overlap. For example 'earth' is used in astronomy and earth sciences and physics, 'human' is common word between human body, medicine, and biology. 'Energy','earth','work', 'light' are all terms used in both physics and engineering. This suggests these topics are indeed very simillair in subject matter, however they do have some distinction as well 
 
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
-
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 Next, split the data into training/validation and test. TFIDF is then fitted and applied and then passed through both Multinomial Naivyes Bayes classifier and a Linear Support Vector Classifier, which is then fined tuned with the validation set and applied to the test set
 
@@ -179,6 +185,25 @@ manually for 8 topics, labels where assigned:
 <img align="left" src="NEW.png" alt=""/>
 
 Looking at the new topics we see alot of the existing topics clearly from the word clouds. Chemistry, Physics, AstroPhysics/Astronomy and Earth Sciences. We also have some wordclouds that are a bit ambiguous like Medicine, Human Body and Biology. None of these seem like perfect fits but are the best approximations of the words. Chemistry and Zoology are new topics which are now seen. The Chemistry topic has very clear chemistry related terms like pressure, air, liquid, energy, heat. The Zoology also has words specific to studying animals(including humans): Plants, hair, evolutionary, species, dogs, animals.
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 ### Next steps?
 
