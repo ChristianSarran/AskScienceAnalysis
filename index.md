@@ -123,7 +123,7 @@ and less than 5% come from people who post more than 5 times. Alternatively on t
 In order to answer this question, we will try to use topic modelling to create topics based on the questions asked, and see if the currents flairs meet these topics and if the
 flairs can easily be predicted based on the question. 
 
-First we will take the raw question data and remove any stopwords/uninformative wards, punctuation/non alpha characters and lowercase everything. Stemming was applied but found not siginifcant predicitive improvments. This will be our corpus for analysis
+First we will take the raw question data and remove any stopwords/uninformative wards, punctuation/non alpha characters and lowercase everything. Stemming was applied but found not siginifcant predicitive improvments. This will be our corpus for analysis. For the purpose of anlysis we will only look at the top 8 flairs, for easy of anyalysis and computation, but also all lower flairs are only used less than 4% of the time 
 
 ![raw](https://user-images.githubusercontent.com/43121654/144928012-4963f6bd-d705-4e80-ac7b-6062e5d1dd9f.PNG)
 
@@ -131,7 +131,19 @@ First we will take the raw question data and remove any stopwords/uninformative 
 
 ![cleaned2](https://user-images.githubusercontent.com/43121654/144926444-459361a7-961c-4a87-a50f-48e4ddc7b773.PNG)
 
-Next the data is split into training/validation and test. TFIDF is then fitted and applied and then passed through both Multinomial Naivyes Bayes classifier and a Linear Support Vector Classifier, which is then fined tuned with the validation set and applied to the test set
+Next lets examine the top 8 flairs word clouds to better understand the words and scope of each flair
+
+<img align="left" width="1000" height="1000" src="tester2.png" alt=""/>
+
+<br />
+
+We see that actually each flair has pretty distinct words that conincide with that branch of science, hoewever some words overlap. For example 'earth' is used in astronomy and earth sciences and physics, 'human' is common word between human body, medicine, and biology. 'Energy','earth','work', 'light' are all terms used in both physics and engineering. This suggests these topics are indeed very simillair in subject matter, however they do have some distinction as well 
+
+
+
+
+
+Next, split the data into training/validation and test. TFIDF is then fitted and applied and then passed through both Multinomial Naivyes Bayes classifier and a Linear Support Vector Classifier, which is then fined tuned with the validation set and applied to the test set
 
 We see the accuracy of MultinomialNB is 0.65 and LinearSVC 0.668
 
@@ -147,10 +159,16 @@ Human body is more than twice as likely to be mistaken for medicine, compared to
 
 The problem with this is that these two flairs are already among the biggest flairs, so possibly the very close simillarity is endured to maintain slightly bettwen distinction between the posts
 
+The commonalities between the missclassification is reflected in the simllairty of the confusion matrix of our classifier and the previous word clouds.
 <br />
-<br />
-<img align="left" width="1000" height="1000" src="tester2.png" alt=""/>
-
 <br />
 
-We see that actually each flair has pretty distinct words that conincide with that branch of science, hoewever some words overlap. For example 'earth' is used in astronomy and earth sciences and physics, 'human' is common word between human body, medicine, and biology. 'Energy','earth','work', 'light' are all terms used in both physics and engineering. The commonalities between subjects is reflected in the confusion matrix of our classifier. This suggests these topics are indeed very simillair in subject matter  
+
+### Can we do better?
+
+In order to test whether or not their are better flairs we can try to use topic modelling on the posts of the top 8 flairs
+
+Using a a matrix or word counts from the training set LatentDirichletAllocation(LDA) is used to determine new flairs:
+
+
+
