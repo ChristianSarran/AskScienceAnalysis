@@ -28,29 +28,29 @@ Earth Sciences                  31542 posts
 Medicine                        26698 posts 
 Engineering                     21112 posts
 Psychology                      18921 posts
-Neuroscience                    18517 posts
-COVID-19                        16172 posts
-Planetary Sci.                  15125 posts
-Computing                       10297 posts
-Mathematics                     9360 posts
-Social Science                  5355 posts
-Anthropology                    3374 posts
-Paleontology                    2712 posts
-Linguistics                     2115 posts
-Economics                       2007 posts
-Political Science               1122 posts
-Archaeology                      978 posts
-Economics                       2007 posts
-Political Science               1122 posts
-Archaeology                      978 posts
-Biology/Agriculture                5 posts
-Neuroscience AMA                   3 posts
-Agriculture                        2 posts
-Panel Applications                 2 posts 
-ACS AMA                            2 posts
-Malaria AMA                        2 posts
-Weather ❄ 😎                      1 posts 
-Neutrino Physics AMA               1 posts
+Neuroscience               18517 posts
+COVID-19                   16172 posts
+Planetary Sci.             15125 posts
+Computing                  10297 posts
+Mathematics                9360 posts
+Social Science             5355 posts
+Anthropology               3374 posts
+Paleontology               2712 posts
+Linguistics                2115 posts
+Economics                  2007 posts
+Political Science          1122 posts
+Archaeology                978 posts
+Economics                  2007 posts
+Political Science          1122 posts
+Archaeology                978 posts
+Biology/Agriculture        5 posts
+Neuroscience AMA           3 posts
+Agriculture                2 posts
+Panel Applications         2 posts 
+ACS AMA                    2 posts
+Malaria AMA                2 posts
+Weather ❄ 😎              1 posts 
+Neutrino Physics AMA       1 posts
 ...
 </pre>
 
@@ -117,6 +117,7 @@ From the graph on the left we see that although some people do post more than ju
 and less than 5% come from people who post more than 5 times. Alternatively on the right graph we see an overwhelmingly large portion of posts will have less than 50 score, and very few will achieve over 500
 <p/>
 
+<br />
 
 ### How well are topics organized now?
 
