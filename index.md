@@ -118,13 +118,15 @@ flairs can easily be predicted based on the question.
 
 First we will take the raw question data and remove any stopwords/uninformative wards, punctuation/non alpha characters and lowercase everything. Stemming was applied but found not siginifcant predicitive improvments. This will be our corpus for analysis. For the purpose of anlysis we will only look at the top 8 flairs, for easy of anyalysis and computation, but also all lower flairs are only used less than 4% of the time 
 <br />
-test
+<hr>
 <br />
 <img align="center" src="cleaned2.PNG" alt=""/>
 
 <img width="100" height="100" align="center" src="output-onlinepngtools.png" alt=""/>
 
 <img  align="center" src="raw.PNG" alt=""/>
+<hr>
+
 <br />
 <br />
 Next lets examine the top 8 flairs word clouds to better understand the words and scope of each flair
