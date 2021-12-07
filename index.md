@@ -201,3 +201,10 @@ Looking at the new topics we see a lot of the existing topics clearly from the w
 <p>
 Given more time, I think the next natural step would be to include this new topic of Zoology and relabel posts from the subreddit and try to rerun a topic classification prediction model on the new data and see if it performs better. Naturally using only models to verify how well these topics are labelled has very little external validity so having manual labelers and validators would be ideal once our model is able to easily determine the distinction in topics 
  <p/>
+ 
+  <br />
+ <br />
+  
+   <br />
+ <br />
+  
