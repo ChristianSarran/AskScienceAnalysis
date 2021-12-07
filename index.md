@@ -143,13 +143,8 @@ We see that actually each flair has pretty distinct words that conincide with th
 <br />
 
 <br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+
+
 
 Next, split the data into training/validation and test. TFIDF is then fitted and applied and then passed through both Multinomial Naivyes Bayes classifier and a Linear Support Vector Classifier, which is then fined tuned with the validation set and applied to the test set
 
